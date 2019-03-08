@@ -188,10 +188,6 @@ function reloadCookieTable() {
     cell.setAttribute("class", "cookie_count cookie_"+(TT.pardot || false));
 
     var cell = row.insertCell(-1);
-    cell.innerText = TT.dmp || false;
-    cell.setAttribute("class", "cookie_count cookie_"+(TT.dmp || false));
-
-    var cell = row.insertCell(-1);
     cell.innerText = TT.marketo || false;
     cell.setAttribute("class", "cookie_count cookie_"+(TT.marketo || false));
 
